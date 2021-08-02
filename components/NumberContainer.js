@@ -13,7 +13,7 @@ export const NumberContainer = (props) => {
 const styles = StyleSheet.create({
   container: {
     borderWidth: 2,
-    borderColor: Colors.primary,
+    borderColor: Colors.accent,
     padding: 10,
     borderRadius: 10,
     marginVertical: 10,
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   number: {
-    color: Colors.primary,
+    color: Colors.accent,
     fontSize: 22,
   },
 });
